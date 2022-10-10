@@ -1,3 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(59, 46, 46, 0.867);
+}
+
 .checked {
   text-decoration: line-through blue;
+}
+
+.container {
+  width: 350px;
+  height: 300px;
+  background: rgb(156, 176, 200);
+  position: absolute;
+
+  top: 10%;
+  left: 20%;
+  border-radius: 10px;
+}
+
+.todoList {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 325px;
+  margin: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  background-color: rgb(80, 99, 99);
+  color: azure;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+}
+.btnX {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: orangered;
+  color: azure;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+li {
+  list-style-type: decimal;
 }
